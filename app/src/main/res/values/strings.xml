@@ -4,8 +4,6 @@
     <string name="welcome_text">Únete ahora y simplifica tu rutina de pedidos para disfrutar de tus refrigerios sin complicaciones.</string>
     <string name="welcome_title">Optimiza tu \nExperiencia en Trilce</string>
     <string name="formulary_title">Registrarse</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
 
 
