@@ -7,4 +7,5 @@
     <color name="main_user_background">#FEF1EE</color>
     <color name="name_categories">#5E5A5A</color>
     <color name="icons_background">#F46338</color>
+    <color name="background_camera">#4D5E5A5A</color>
 </resources>

@@ -13,14 +13,10 @@
         android:theme="@style/Theme.Cafetin"
         tools:targetApi="31">
         <activity
-<<<<<<< HEAD
-            android:name=".PerfilEdit"
+            android:name=".DetalleProducto"
             android:exported="false" />
         <activity
-            android:name=".Perfil"
-=======
             android:name=".MetodoPagoActivity"
->>>>>>> c863d741c871c45eb4e67371d131defa2b2b9afb
             android:exported="false" />
         <activity
             android:name=".Register"
@@ -33,17 +29,10 @@
         </activity>
         <activity
             android:name=".Welcome"
-<<<<<<< HEAD
             android:exported="false" />
         <activity
             android:name=".Login"
             android:exported="false" />
-=======
-            android:exported="false"></activity>
-        <activity
-            android:name=".Login"
-            android:exported="false"></activity>
->>>>>>> c863d741c871c45eb4e67371d131defa2b2b9afb
         <activity
             android:name=".MainActivity"
             android:exported="false" />
