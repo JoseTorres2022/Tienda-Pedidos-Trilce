@@ -15,7 +15,6 @@
     <string name="button_add_cart">Agregar al Carrito</string>
 
 
-
     <string name="tittle_metodo_pago">Pagar</string>
     <string name="subtittle_metodo_pago">Método de Pago</string>
     <string name="info_pago">Tus datos de Pago</string>
@@ -31,6 +30,7 @@
     <string name="price_total">S/ 15.30 PEN</string>
     <string name="tittle_detalle">Ver Detalles</string>
     <string name="button_text">Pagar ahora</string>
-    <string name="name_product">&quot;ProductName&quot;</string></resources>
+    <string name="name_product">&quot;ProductName&quot;</string>
+</resources>
 
 
