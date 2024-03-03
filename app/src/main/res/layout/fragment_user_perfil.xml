@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserPerfil">
+    tools:context=".UserPerfil"
+    android:background="@color/main_user_background">
 
     <Button
         android:id="@+id/btnEditarPerfil"
@@ -68,4 +69,5 @@
         android:background="@drawable/circular_button_edit_image"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="108dp" />
+
 </FrameLayout>
