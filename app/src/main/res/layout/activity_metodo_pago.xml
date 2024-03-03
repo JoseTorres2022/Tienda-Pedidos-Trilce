@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white_background"
+    android:background="@color/main_user_background"
     tools:context=".MetodoPagoActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="260dp"
-        android:background="@color/main_background"
+        android:background="@color/icons_background"
         android:orientation="vertical"
 
         app:layout_constraintEnd_toEndOf="parent"
@@ -271,7 +271,7 @@
                     android:id="@+id/tittle_detalles"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/orange_color"
+                    android:textColor="@color/icons_background"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:text="@string/tittle_detalle" />
