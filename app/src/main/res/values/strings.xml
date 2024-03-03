@@ -8,7 +8,7 @@
 
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="name_product">&quot;ProductName&quot;</string>
+
     <string name="price_product">S/ 9.50</string>
     <string name="description_product">Descubre nuestra hamburguesa premium con carne jugosa a la parrilla, lechuga fresca, cebolla, tomate, queso derretido y pepinillos crujientes.</string>
     <string name="product_cant">1</string>
