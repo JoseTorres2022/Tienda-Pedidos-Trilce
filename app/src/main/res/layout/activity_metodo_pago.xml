@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white_background"
+    android:background="@color/main_user_background"
     tools:context=".MetodoPagoActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="260dp"
-        android:background="@color/orange_color"
+        android:background="@color/icons_background"
         android:orientation="vertical"
 
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
                 android:layout_marginStart="104dp"
                 android:gravity="center"
                 android:text="@string/tittle_metodo_pago"
-                android:textColor="@color/white_background"
+                android:textColor="@color/main_user_background"
                 android:textSize="28sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -53,7 +53,7 @@
             android:paddingTop="32dp"
             android:layout_marginStart="18dp"
             android:text="@string/subtittle_metodo_pago"
-            android:textColor="@color/white_background"
+            android:textColor="@color/main_user_background"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -271,7 +271,7 @@
                     android:id="@+id/tittle_detalles"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/orange_color"
+                    android:textColor="@color/icons_background"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:text="@string/tittle_detalle" />

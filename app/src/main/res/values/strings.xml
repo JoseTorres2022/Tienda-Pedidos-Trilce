@@ -31,6 +31,6 @@
     <string name="price_total">S/ 15.30 PEN</string>
     <string name="tittle_detalle">Ver Detalles</string>
     <string name="button_text">Pagar ahora</string>
-</resources>
+    <string name="name_product">&quot;ProductName&quot;</string></resources>
 
 
