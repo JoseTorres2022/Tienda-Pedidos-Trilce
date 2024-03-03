@@ -14,6 +14,15 @@
         tools:targetApi="31">
 
         <activity
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            android:name=".DetalleProducto"
+            android:exported="false" />
+        <activity
+>>>>>>> d0a9c3c0dd5f11ab58d05952c0dd84ba1e3fe11b
+>>>>>>> f26fe77875d5af3909eb1435bc7f80d0c8ae6649
             android:name=".MetodoPagoActivity"
             android:exported="false" />
 
@@ -38,6 +47,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+
+        <activity
+            android:name=".Welcome"
+            android:exported="false" />
+
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+<<<<<<< HEAD
+
+=======
+>>>>>>> d0a9c3c0dd5f11ab58d05952c0dd84ba1e3fe11b
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+>>>>>>> f26fe77875d5af3909eb1435bc7f80d0c8ae6649
     </application>
 
 </manifest>
