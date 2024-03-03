@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_user_background"
+    tools:context=".Perfil"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="35dp">
+
+
+    <Button
+        android:id="@+id/btnEditarPerfil"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/black"
+        android:text="Editar Perfil"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCerrarSesion"
+        app:strokeWidth="1dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/main_background"
+        android:padding="12dp"
+        android:text="Cerrar Sesion"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+
+        app:cornerRadius="10dp"
+        app:strokeColor="@color/main_background"
+        app:strokeWidth="1dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="637dp" />
+
+    <TextView
+        android:id="@+id/txtPerfilNameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Jhon Doe"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/txtPerfilEmailUser"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="131dp" />
+
+    <TextView
+        android:id="@+id/txtPerfilEmailUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JhonDoe@gmail.com"
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="194dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtPerfilNameUser"
+        app:srcCompat="@drawable/user"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="108dp"
+        android:background="@drawable/circular_button_edit_image"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

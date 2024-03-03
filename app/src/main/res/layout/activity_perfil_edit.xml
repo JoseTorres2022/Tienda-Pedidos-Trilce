@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_user_background"
+    tools:context=".PerfilEdit">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Telefono"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="194dp"
+        android:layout_height="190dp"
+        app:srcCompat="@drawable/user"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="34dp"
+        android:background="@drawable/circular_button_edit_image"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circular_button_edit_image"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/button_image_edit"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <Button
+        android:id="@+id/btnUpdatePerfil"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/black"
+        android:text="Confirmar Cambios"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:strokeWidth="1dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Nombres"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="67dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="258dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="67dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:layout_editor_absoluteX="65dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Contraseña"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="259dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpdatePerfil"
+        app:layout_constraintTop_toBottomOf="@+id/txtContraseña"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="69dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/icon_back"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
